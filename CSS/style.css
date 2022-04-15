@@ -1,0 +1,131 @@
+h1 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(52, 53, 75);
+    text-align: center;
+    text-indent: -300px;
+    
+}
+
+h2 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: azure;
+    font-size: medium;
+    text-align-last: center;
+    text-indent: 200px;
+}
+
+h3{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: azure;
+    font-size: medium;
+    text-indent: 330px;
+}
+
+h4{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: azure;
+    font-size: large;
+    text-indent: 710px;
+}
+
+div {
+     background-color: rgb(52, 53, 75);
+     height: 43px;
+     width: 2000px;
+
+}
+
+#div2{
+    background-color: rgb(52, 53, 75);
+    height: 250px;
+    width: 2000px;
+
+}
+
+#div3{
+    background-color: rgb(52, 53, 75);
+    height: 100px;
+    width: 2000px;
+}
+
+#div4{
+    background-color: rgb(52, 53, 75);
+    height: 200px;
+    width: 200px;
+}
+
+#para1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(52, 53, 75);
+    font-size: large;
+    text-align:justify;
+    text-indent: 710px;
+}
+
+#para2{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(52, 53, 75);
+    font-size: large;
+    text-align: auto;
+    text-indent: 500px;
+}
+
+#list{
+    list-style-position: inside;
+    list-style-type: square;
+    margin-left: 600px;
+}
+
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.center2{
+    display: block;
+    margin-left: 340px;
+    margin-right: 0px;
+}
+
+.center3{
+    display: block;
+    margin-left: 740px;
+    margin-top: -35px;
+    
+}
+
+.center4{
+    display: block;
+    margin-left: 1150px;
+    margin-top: -35px;
+}
+
+form{
+    padding: 15px;
+    background-color: rgb(170, 173, 230);
+    font-style: bold;
+    border-style: solid;
+    font-weight: 900px;
+    width: 500px; 
+    height: 500px;
+    margin-left: 520px;
+
+}
+#box1{
+    background-color: rgb(206, 21, 181);
+   
+}
+#box1:hover{
+    background-color: rgb(221, 153, 90);
+}
+input[type=button]:hover{
+    border: solid;
+    background-color: rgb(218, 243, 74);
+}
+input[type=text]:focus {
+    background-color: rgb(0,330,0);
+    color: black;
+    width: 100%;
+    transition: 1s;}
